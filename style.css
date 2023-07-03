@@ -57,4 +57,15 @@
     text-align: center;
   }
 
- 
+  /* responsive */
+  @media screen and (max-width: 800px) {
+    .flex-container{
+        height: 56vh;
+        width: 32vh;
+    }
+    .image{
+        height: 200px;
+        width: 200px;
+    }
+    
+  }
